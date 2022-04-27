@@ -1,3 +1,9 @@
 User stories
-
+As a passenger, I want to get a ride from anywhere to another anywhere and know my fare and time in advance, so that I can take my time and budget.
 Acceptance criteria
+GIVEN
+User navigate to APP home page
+WHEN
+User click "Order car" and select his/her point of departure and destination
+THEN
+System will estimate fare and travel time and show
