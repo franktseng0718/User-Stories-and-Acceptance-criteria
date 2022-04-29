@@ -1,0 +1,11 @@
+Uber
+User story:
+As a disabled I want to book a car so that I can place a wheelchair
+
+Acceptance criteria:
+GIVEN: Disabled navigate to setting page
+WHEN: User click "choose a trip" and choose car to disabled Uber
+THEN: Enable disabled to choose the welcab or a van
+GIVEN: Disabled choose the welcab with setting "choose a trip"
+WHEN: Disabled navigate to the place to take the car
+THEN: Enable disabled to take a welcab
