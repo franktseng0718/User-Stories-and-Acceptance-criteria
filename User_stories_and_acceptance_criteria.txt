@@ -120,3 +120,28 @@ I want to know the distribution of passengers, so that I can stay around and get
 Given: Map page.
 When: User click "Passengers' postion"
 Then: Show the pick up postions for the recent 5 minutes orders.
+
+As a passenger who carries lots of luggage, 
+I  want to know which car can have enough space to carry my stuff.
+Given: User navigates to ordering page.
+When: User enters the size and the weight of his luggage.
+Then: Show the suitable car to the user.
+
+As a passenger who wants to eat in the car,
+I  want to know which car can let me finish my meal.
+Given: User navigates to ordering page.
+When: User enters the condition of the car.
+Then: Show the suitable car to the user.
+
+As a passenger who wants to have a safer tour,
+I  want to know which car is the safest I can order.
+Given: User navigates to ordering page.
+When: User enters the condition of the car.
+Then: List every car which hasn't had any traffic problem record.
+
+As a passenger who uses uber regularly such as going to work at 9 am every day,
+I  want to know which car can always match my time.
+Given: User navigates to ordering page.
+When: User enters the time that he would order regularly.
+Then: List every car which can fit his time.
+
